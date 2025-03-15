@@ -12,7 +12,7 @@ app.get("/getall", (req, res, next) => {
     res.send("hello everyone");
   });
 
-const Port = 5000;
+const Port = 80;
 app.listen(Port, () => {
   console.log(`App listening in Port ${Port}`);
 });
